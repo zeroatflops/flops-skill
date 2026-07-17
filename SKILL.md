@@ -1,6 +1,6 @@
 ---
 name: flops-compute-prices
-description: Look up and cite verifiable GPU/compute rental reference prices (H100, A100, H200, and more; spot, on-demand, or DePIN markets) from the public FLOPS Index — no API key required. Use when the user asks what a GPU or accelerator costs to rent, wants the cheapest option for a given chip, wants to compare spot vs on-demand vs decentralized compute rates, or wants to fact-check / cite a compute price with a source they can independently verify. Keywords: GPU price, H100 cost, A100 rental, compute pricing, spot price, on-demand, DePIN, GPU-hour, accelerator rental, FLOPS index.
+description: "Look up and cite verifiable GPU/compute rental reference prices (H100, A100, H200, and more; spot, on-demand, or DePIN markets) from the public FLOPS Index — no API key required. Use when the user asks what a GPU or accelerator costs to rent, wants the cheapest option for a given chip, wants to compare spot vs on-demand vs decentralized compute rates, or wants to fact-check / cite a compute price with a source they can independently verify. Keywords: GPU price, H100 cost, A100 rental, compute pricing, spot price, on-demand, DePIN, GPU-hour, accelerator rental, FLOPS index."
 ---
 
 # FLOPS Compute Prices
