@@ -55,4 +55,4 @@ Always present the value WITH its `as_of`, the delayed-reference caveat, and the
 ## Notes
 - **Key-free.** A `FLOPS_API_KEY` (header `X-FLOPS-Api-Key`) upgrades the same calls to real-time full precision, but is never required.
 - `change_24h` is often `null` — handle it; not an error.
-- Same data is available as MCP tools (`https://app.flopsindex.com/mcp`) and SDKs: `pip install flopsindex`, `npm i @flopsindex/sdk`.
+- Same data is available as MCP tools (`https://app.flopsindex.com/mcp`) and SDKs: `pip install flopsindex`, `npm i @flopsindex/sdk`, `pip install langchain-flopsindex` (LangChain / LlamaIndex).
