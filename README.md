@@ -2,6 +2,16 @@
 
 A self-contained [Agent Skill](https://docs.claude.com/en/docs/agents-and-tools/agent-skills) that teaches an AI agent to look up **GPU / compute rental reference prices** and cite them with a **verifiable source**, using the public [FLOPS Index](https://flopsindex.com) API. **No API key required.**
 
+## Features
+
+- **No API key, no signup** — the public FLOPS surface is anonymous, so the skill works the moment it is installed.
+- **Three accelerator vendors** — NVIDIA data-center and workstation GPUs, AMD `MI300X`, and Intel `GAUDI2`.
+- **All three market types** — on-demand, spot and DePIN, e.g. `FLOPS-H100-OD`, `FLOPS-A100-SPOT`, `FLOPS-A100-DEPIN`.
+- **Cite-ready by construction** — every value carries a `verify_url` the reader can independently check.
+- **Fact-checking built in** — `verify` tests a claimed price against the published reference instead of trusting it.
+- **Zero dependencies** — `scripts/flops.py` is stdlib-only Python 3.8+, no third-party packages.
+- **Honest about what it is** — values are indicative and delayed to the most recent 6-hour UTC mark, never presented as live quotes or settlement marks.
+
 ## What it does
 When a user asks what an accelerator costs to rent — "what's an H100 going for?", "cheapest A100 right now?", "is $1.50/hr for an H100 spot right?" — the skill drives the **price → verify → cite** flow against the public FLOPS API:
 
